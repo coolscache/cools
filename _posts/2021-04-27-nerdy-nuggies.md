@@ -8,7 +8,7 @@ the-next-one: "/teleO2"
 
 home-video: "/assets/images/nerdy-hero.gif"
 image1: "/assets/images/nerdy-hero.jpeg"
-image2: "/assets/images/nerdy-tablet.gif"
+image2: "/assets/images/nerdy-mobile.gif"
 image3: "/assets/images/nerdy-code.gif"
 image4: "/assets/images/nerdy-siteleaf.gif"
 image5: "/assets/images/bluewave-empathy.png"
