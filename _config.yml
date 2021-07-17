@@ -1,0 +1,76 @@
+---
+title: cools cache studio
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: bluewave
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: ecaptis
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: nerdy
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: teleO2
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: landing   
+email: makalatrezise@gmail.com
+description: Consume some nerdy nuggies to fuel your brain
+baseurl: 
+url: 
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+assets:
+  sources: "-_assets/fonts"
+permalink: "/coolscachestudio/:title"
+section: true
+netlifycms: true
+analytics: false
+sass:
+  style: compressed
+  sass_dir: _sass
+compress_html:
+  clippings: all
+markdown: kramdown
+kramdown:
+  auto_ids: false
+exclude:
+- README.md
+- LICENSE.txt
+- netlify.toml
+- feed.xml
+- Gemfile
+- Gemfile.lock
+- docker-compose.yml
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
