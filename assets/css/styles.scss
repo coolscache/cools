@@ -557,6 +557,10 @@ footer {
 
 // mobile
 @media only screen and (max-width: 480px) {
+    .center-block {
+        width: 100%;
+    }
+    
     .post-header {
        border-right: none;
        border-bottom: none;
