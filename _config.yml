@@ -20,17 +20,17 @@ defaults:
   values:
     layout: bluewave
 - scope:
-    path: ''
+    path: 'ecaptis.html'
     type: posts
   values:
     layout: ecaptis
 - scope:
-    path: ''
+    path: 'nerdy.html'
     type: posts
   values:
     layout: nerdy
 - scope:
-    path: ''
+    path: 'teleO2.html'
     type: posts
   values:
     layout: teleO2
