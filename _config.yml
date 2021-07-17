@@ -41,7 +41,7 @@ defaults:
     layout: landing   
 email: makalatrezise@gmail.com
 description: Consume some nerdy nuggies to fuel your brain
-baseurl: 
+baseurl: "cools"
 url: 
 theme: minima
 plugins:
