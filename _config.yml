@@ -42,7 +42,7 @@ defaults:
 email: makalatrezise@gmail.com
 description: Consume some nerdy nuggies to fuel your brain
 baseurl: 
-url: https://makalatrezise.github.io
+url: 
 theme: minima
 plugins:
 - jekyll-feed
