@@ -35,7 +35,7 @@ defaults:
   values:
     layout: teleO2
 - scope:
-    path: ''
+    path: 'index.html'
     type: posts
   values:
     layout: landing   
