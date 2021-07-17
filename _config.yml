@@ -49,7 +49,7 @@ plugins:
 - jekyll-seo-tag
 assets:
   sources: "-_assets/fonts"
-permalink: "/coolscachestudio/:title"
+permalink: "/:title"
 section: true
 netlifycms: true
 analytics: false
