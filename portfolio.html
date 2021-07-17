@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="posts-container">
+  {% assign id = 0 %}
+  {% for post in site.posts %}
+    {% assign id = id | plus:1 %}
+
+    <div class="home-project col-md-6 col-sm-12">
+      <div class="home-project-info">
+
+        <div class="home-text centered-text"> 
+          <a href="{{post.url}}">
+            <p class="capsule2"> {{ post.project-number }} </p>
+            <br />
+            <p class="capsule2"> {{ post.title}} </p>
+            <br />
+            <p class="capsule2"> {{ post.project-type }} </p>
+          </a>
+        </div>
+           <a href="{{post.url}}">
+            <img src="/assets/images/white-home-cover.png"
+            onmouseover="this.src='{{ post.home-video }}';"
+            onmouseout="this.src='/assets/images/white-home-cover.png';" class="img-fluid home-gif">
+          </a>
+      </div>
+
+    </div>
+  {% endfor %}
+</div>
