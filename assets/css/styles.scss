@@ -553,6 +553,10 @@ footer {
 
 // mobile
 @media only screen and (max-width: 480px) {
+    .gallery-status {
+        padding-top: 2.5px!important;
+    }
+    
     .center-block {
         width: 100%;
     }
