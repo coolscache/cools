@@ -360,7 +360,7 @@ nav a, p a {
     z-index: 99;
     font-size: 12px;
     margin-left: 10px;
-    padding-top: 2.5px!important;
+    padding-top: 4px!important;
     margin-top: 1px;
 }
 
@@ -538,6 +538,10 @@ footer {
          border-bottom: none;
     }
 
+    .posts-container {
+        margin-bottom: 40px;
+    }
+
     .gallery-cell {
         height: 95.5vh;
     }
@@ -553,14 +557,6 @@ footer {
 
 // mobile
 @media only screen and (max-width: 480px) {
-    .gallery-status {
-        padding-top: 2.5px!important;
-    }
-    
-    .center-block {
-        width: 100%;
-    }
-    
     .post-header {
        border-right: none;
        border-bottom: none;
@@ -575,7 +571,6 @@ footer {
         width: 100%;
         text-align: center;
         height: 100vh;
-        
     }
 
     .hero-text {
@@ -589,7 +584,6 @@ footer {
         transform: translate(0%, -50%);
         color: white;
     }
-    
     .post-content {
         border-top: 1px solid $black;
     }
