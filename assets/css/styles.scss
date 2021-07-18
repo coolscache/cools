@@ -30,84 +30,8 @@ body {
     background-color: $background;
 }
 
-.bg {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    right: -50%;
-    bottom: -50%;
-    width: 200%;
-    height: 200vh;
-    background: transparent url("/assets/images/noise.png") repeat 0 0;
-    background-repeat: repeat;
-    animation: bg-animation 0.9s infinite;
-    opacity: .2;
-    visibility: visible;
-    z-index: -1;
-}
-
-@keyframes bg-animation {
-    0% {
-        transform: translate(0);
-    }
-    10% {
-        transform: translate(-5%,-5%);
-    }
-    20% {
-        transform: translate(-10%,5%);
-    }
-    30% {
-        transform: translate(5%,-10%);
-    }
-    40% {
-        transform: translate(-5%,15%);
-    }
-    50% {
-        transform: translate(-10%,5%);
-    }
-    60% {
-        transform: translate(15%);
-    }
-    70% {
-        transform: translateY(10%);
-    }
-    80% {
-        transform: translate(-15%);
-    }
-    90% {
-        transform: translate(10%,5%);
-    }
-    100% {
-        transform: translate(5%);
-    }
-}
-
 p {
     margin-bottom: 0px!important;
-}
-
-h1 {
-    font-size: 9vw;
-    line-height: 1;
-    font-family: $typography;
-    text-align: justify;
-    background: -webkit-linear-gradient(-30deg, #e9fad3, #40f2ec, #add2ed, #ffb2ff);
-    background-size: 150% 150%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradient 5s linear infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 .container-fluid {
@@ -267,8 +191,6 @@ nav a, p a {
 }
 
 .home-gif {
-    //margin-top: 16px!important;
-    //margin-bottom: 4rem;
     background-image: url(/assets/images/white-home-cover.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -360,7 +282,7 @@ nav a, p a {
     z-index: 99;
     font-size: 12px;
     margin-left: 10px;
-    padding-top: 4px!important;
+    padding-top: 2.5px!important;
     margin-top: 1px;
 }
 
