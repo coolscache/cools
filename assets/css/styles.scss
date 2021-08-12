@@ -235,6 +235,10 @@ nav a, p a {
 
 
 //  PROJECT PAGES
+.instructions {
+    margin-left: 10px;
+}
+
 .images1 {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -282,7 +286,7 @@ nav a, p a {
     z-index: 99;
     font-size: 12px;
     margin-left: 10px;
-    padding-top: 2.5px!important;
+    //padding-top: 2.5px!important;
     margin-top: 1px;
 }
 
