@@ -236,6 +236,7 @@ nav a, p a {
 
 //  PROJECT PAGES
 .instructions {
+    display: block;
     margin-left: 10px;
 }
 
@@ -474,6 +475,10 @@ footer {
 
     .cell-text {
         width: 50%;
+    }
+    
+    .instructions {
+        display: none;
     }
 
     footer {
