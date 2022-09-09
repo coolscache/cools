@@ -27,7 +27,7 @@ layout: bluewave
         <div class="line"> </div>
 
         <section class="post-contents">
-            <div class="gallery js-flickity" data-flickity='{ "fade": true, "imagesLoaded": true, "selectedAttraction": 0.01, "friction": 0.15 }'>
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
                 <div class="gallery-cell">
                     <div class="cell-text">
                         <img src="{{ page.image1 }}" alt="bluewave disinfection device" class="img-fluid images1">
@@ -104,7 +104,7 @@ layout: bluewave
 
     <!-- initalise flickity -->
     <script type="text/javascript">
-        var elem = document.querySelector('.gallery-cell');
+        var elem = document.querySelector('.main-carousel');
         var flkty = new Flickity( elem, {
          // options
         cellAlign: 'left',
@@ -113,7 +113,7 @@ layout: bluewave
 
         // element argument can be a selector string
         //   for an individual element
-        var flkty = new Flickity( '.gallery-cell', {
+        var flkty = new Flickity( '.main-carousel', {
         // options
     });
 
